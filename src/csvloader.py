@@ -27,3 +27,11 @@ def get_collumn_of_sheet(sheet, collumn_nr):
         collumn.append(row[collumn_nr])
 
     return collumn
+
+def float_list(list):
+    outlist = []
+
+    for entry in list:
+        outlist.append(float(entry))
+
+    return outlist

@@ -6,13 +6,14 @@
   - load_sheet()
   - load_collumn()
   - get_collumn_of_sheet()
+  - float_list()
 
 ## Importing CSV-Handler into your project
 To import CSV-Handler into your project you can clone the project from [github](http://github.com/DapfiDuck/csvhandler) and put the ``csvloader.py`` into your project. Now import the library into your python project with:
 ```
 import csvloader as csv
 ```
-Now you can use the functions of the csv-loader inside your project.
+Now you can use all functions of the csv-loader inside your project. If the handler is imported like this functions must be called with ``csv.functionname()`` They can also be imported individually
 
 ## Functions
 ### load_sheet()
@@ -65,4 +66,20 @@ y = get_col(data, 1)
 
 print(x)
 print(y)
+```
+
+### float_list()
+Converts every entry in a list to float.
+
+|Parameters|Description|Required|
+|----------|-----------|--------|
+|list|List of datapoints as strings|y|
+
+Usage:
+```
+from csvloader import float_list
+data = ["1", "4", "9", "16", "25"]
+floatdata = float_list(data)
+print(data)
+print(floatdata)
 ```

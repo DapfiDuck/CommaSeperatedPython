@@ -5,7 +5,7 @@ csvhandler is a lightweight library to help with handling data from csv files.
 This project aims at being an easy to use api for a very limited set of applications.
 
 ## Functions
-The csv handler can perform different functions regarding loading data from files. [Documentation](https://dapfiduck.github.io/docs/functions)
+The csv handler can perform different functions regarding loading data from files. [Documentation](https://dapfiduck.github.io/csvhandler/docs/functions)
 
 ## Similar Resources
 1. [Pandas](https://github.com/pandas-dev/pandas) is a powerful python library for data analysis. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way towards this goal.

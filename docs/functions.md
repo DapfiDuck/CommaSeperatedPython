@@ -3,10 +3,10 @@
 **Contents**
 1. [Importing CSV Handler into your project.](#importing-csv-handler-into-your-project)
 2. [Functions](#functions)
-  1. [load_sheet()](#load_sheet)
-  2. [load_collumn()](#load_collumn)
-  3. [get_collumn_of_sheet()](#get_collumn_of_sheet)
-  4. [float_list()](#float_list)
+  - [load_sheet()](#load_sheet)
+  - [load_collumn()](#load_collumn)
+  - [get_collumn_of_sheet()](#get_collumn_of_sheet)
+  - [float_list()](#float_list)
 
 ## Importing CSV-Handler into your project
 To import CSV-Handler into your project you can clone the project from [github](http://github.com/DapfiDuck/csvhandler) and put the ``csvloader.py`` into your project. Now import the library into your python project with:

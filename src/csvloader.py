@@ -12,10 +12,7 @@ def load_sheet(url, delimiter=","):
 
 def load_collumn(url, collumn_nr, delimiter=","):
     array = get_array(url, delimiter=delimiter)
-    collumn = []
-
-    for row in array:
-        collumn.append(row[collumn_nr])
+    collumn = get_collumn_of_sheet(array)
 
     return collumn
 

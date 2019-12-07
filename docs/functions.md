@@ -1,8 +1,8 @@
 # Documentation
 
 **Contents**
-- [Importing CSV Handler into your project.](#importing-csv-handler-into-your-project)
-- [Functions](#functions)
+1. [Importing CSV Handler into your project.](#importing-csv-handler-into-your-project)
+2. [Functions](#functions)
   - [load_sheet()](#load_sheet)
   - [load_collumn()](#load_collumn)
   - [get_collumn_of_sheet()](#get_collumn_of_sheet)

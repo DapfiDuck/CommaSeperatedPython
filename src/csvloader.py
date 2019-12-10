@@ -11,7 +11,7 @@ def load_sheet(url, delimiter=","):
     return array;
 
 def load_collumn(url, collumn_nr, delimiter=","):
-    array = get_array(url, delimiter=delimiter)
+    array = load_sheet(url, delimiter=delimiter)
     collumn = get_collumn_of_sheet(array)
 
     return collumn

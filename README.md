@@ -1,7 +1,8 @@
 # csvhandler
 
-csvhandler is a lightweight library to help with handling data from csv files.
 [GitHub Pages](http://dapfiduck.github.io/csvhandler).
+
+csvhandler is a lightweight library to help with handling data from csv files.
 This project aims at being an easy to use api for a very limited set of applications. It functions as a wrapper for the python-native csv function that handles the file for you.
 
 ## Functions

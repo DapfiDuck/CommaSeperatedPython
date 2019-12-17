@@ -1,5 +1,6 @@
 import csv
 
+
 def load_sheet(url, delimiter=","):
     with open(url) as file:
         sheet = csv.reader(file, delimiter=delimiter)
@@ -8,27 +9,29 @@ def load_sheet(url, delimiter=","):
         for row in sheet:
             array.append(row)
 
-    return array;
+    return array
 
-def load_collumn(url, collumn_nr, delimiter=","):
+
+def load_column(url, column_nr, delimiter=","):
     array = load_sheet(url, delimiter=delimiter)
-    collumn = get_collumn_of_sheet(array)
+    column = get_column_of_sheet(array, column_nr)
 
-    return collumn
+    return column
 
-def get_collumn_of_sheet(sheet, collumn_nr):
 
-    collumn = []
+def get_column_of_sheet(sheet, column_nr):
+    column = []
 
     for row in sheet:
-        collumn.append(row[collumn_nr])
+        column.append(row[column])
 
-    return collumn
+    return column
 
-def float_list(list):
+
+def float_list(to_float):
     outlist = []
 
-    for entry in list:
+    for entry in to_float:
         outlist.append(float(entry))
 
     return outlist

@@ -13,7 +13,7 @@ def load_sheet(url: str, delimiter: str = ","):
     return array
 
 
-def load_column(url, column_nr: int, delimiter=","):
+def load_column(url, column_nr: int, delimiter: str=","):
     array = load_sheet(url, delimiter=delimiter)
     column = get_column_of_sheet(array, column_nr)
 

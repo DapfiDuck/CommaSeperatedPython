@@ -9,11 +9,11 @@
   - [float_list()](#float_list)
 
 ## Importing CSV-Handler into your project
-To import CSV-Handler into your project you can clone the project from [github](http://github.com/DapfiDuck/csvhandler) and put the ``csvloader.py`` into your project. Now import the library into your python project with:
+To import CommaSeperatedPython into your project you can clone the project from [github](http://github.com/DapfiDuck/csvhandler) and put the ``csvloader.py`` into your project. Now import the library into your python project with:
 ```
 import csvloader as csv
 ```
-Now you can use all functions of the csv-loader inside your project. If the handler is imported like this functions must be called with ``csv.functionname()`` They can also be imported individually
+Now you can use all functions of CSP inside your project. If the handler is imported like this functions must be called with ``csv.functionname()`` They can also be imported individually
 
 ## Functions
 ### load_sheet()

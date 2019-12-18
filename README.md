@@ -1,6 +1,6 @@
-# csvhandler
+# Comma Seperated Python
 
-[GitHub Pages](http://dapfiduck.github.io/csvhandler).
+[GitHub Pages](http://dapfiduck.github.io/CommaSeperatedPython).
 
 CommaSeperatedPython is a lightweight python library to help with handling data from csv files.
 This project aims at being an easy to use api for a very limited set of applications. It functions as a wrapper for the python-native csv function that handles the file for you.

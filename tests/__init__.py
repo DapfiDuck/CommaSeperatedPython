@@ -16,3 +16,6 @@ class TestLoadCSV(unittest.TestCase):
 
     def test_float_list(self):
         pass
+
+    def test_write(self):
+        pass

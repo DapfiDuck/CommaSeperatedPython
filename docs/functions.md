@@ -10,7 +10,7 @@
 
 ## Importing CSV-Handler into your project
 To import CommaSeperatedPython into your project you can clone the project from [github](http://github.com/DapfiDuck/csvhandler) and put the ``csvloader.py`` into your project. Now import the library into your python project with:
-```
+```python
 import csvloader as csv
 ```
 Now you can use all functions of CSP inside your project. If the handler is imported like this functions must be called with ``csv.functionname()`` They can also be imported individually
@@ -25,7 +25,7 @@ Returns contents of the csv as a 2-Dimensional array of strings.
 |delimiter |Delimiter between values|n|
 
 Usage:
-```
+```python
 from csvloader import load_sheet
 sheet = load_sheet("./example_data/example.csv")
 print(sheet)
@@ -41,7 +41,7 @@ Loads and returns a collumn of the csv-file as a 1-Dimensional list of Strings.
 |delimiter |Delimiter between values|n|
 
 Usage:
-```
+```python
 from csvloader import load_collumn
 col = load_collumn("./example_data/example.csv", 1)
 print(col)
@@ -57,7 +57,7 @@ Returns a specific collumn of a preloaded array as a 1 dimensional list.
 |collumn_nr|Index of the collumn to be loaded starting at 0|y|
 
 Usage:
-```
+```python
 from csvloader import get_collumn_of_sheet as get_col
 data = [[1, 1], [2, 4], [3, 9], [4, 16], [5, 25]]
 
@@ -76,7 +76,7 @@ Converts every entry in a list to float.
 |list|List of datapoints as strings|y|
 
 Usage:
-```
+```python
 from csvloader import float_list
 data = ["1", "4", "9", "16", "25"]
 floatdata = float_list(data)

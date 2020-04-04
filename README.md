@@ -22,13 +22,13 @@ pip install matplotlib
 ```
 
 First we import our libraries:
-```
+```python
 from matplotlib import pyplot as plt
 import csvloader as csv
 ```
 
 Next we need to load the data from the file
-```
+```python
 sheet = csv.load_sheet("path/python_googletrends.csv")
 dates = csv.get_collumn_of_sheet(sheet, 0)[1:-1]
 data = csv.get_collumn_of_sheet(sheet, 1)[1:-1]
@@ -36,12 +36,12 @@ data = csv.get_collumn_of_sheet(sheet, 1)[1:-1]
 
 Since the data is loaded as strings while matplotlib expects floats or integers, we need to convert the data into a float-list.
 
-```
+```python
 data = csv.float_list(data)
 ```
 
 Now we can call matplotlib to plot the data:
-```
+```python
 plt.plot(dates, data)
 plt.xlabel("Dates")
 plt.ylabel("Search Relevance")
